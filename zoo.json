@@ -1,0 +1,16 @@
+    [
+    {
+        "name": "Tiger",
+        "animal_type": "Tiger",
+        "eat": "Meat",
+        "sleep": "10 hours",
+        "move": "Runs"
+    },
+    {
+        "name": "Tiger",
+        "animal_type": "Tiger",
+        "eat": "Meat",
+        "sleep": "10 hours",
+        "move": "Runs"
+    }
+]

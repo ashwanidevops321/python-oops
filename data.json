@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Ashwani"
+    },
+    {
+        "id": 2,
+        "name": "Ranjit Singh",
+        "age": 24
+    },
+    {
+        "id": 3,
+        "name": "Test",
+        "age": 45,
+        "blood_type": "B+"
+    },
+    {
+        "id": 4,
+        "name": "Harshadh Patel",
+        "age": 29,
+        "blood group": "-O"
+    }
+]
