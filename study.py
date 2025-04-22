@@ -78,6 +78,13 @@ class Parrot(Animal):
     def make_sound(self):
         return "squawk"
     
+class Rabit(Animal):
+    def __init__(self):
+        super().__init__("Rabit", "Domestic", "Carrot", "8 hours", "Hops")
+        
+    def make_sound(self):
+        return "squeak"
+    
 class Zoo:
     def __init__(self):
         self.animals = []
@@ -144,6 +151,8 @@ class Zoo:
                         animal = Snake()
                     elif class_name == "Parrot":
                         animal = Parrot()
+                    elif class_name == "Rabit":
+                        animal = Rabit()
 
                     if animal:
                         for key, value in animal_data.items():
@@ -164,7 +173,8 @@ def main():
         "Elephant": Elephant,
         "Tiger": Tiger,
         "Snake": Snake,
-        "Parrot": Parrot
+        "Parrot": Parrot,
+        "Rabit": Rabit
     }
     
     try:
@@ -183,7 +193,7 @@ def main():
         choice = input("Enter your choice: ")
         
         if choice == "1":
-            animal_type = input("Enter the type of animal (Dog, Lion, Cat, Elephant, Tiger, Snake, Parrot): ")
+            animal_type = input("Enter the type of animal (Dog, Lion, Cat, Elephant, Tiger, Snake, Parrot, Rabit): ")
             if animal_type in animal_classes:
                 animal = animal_classes[animal_type]()
             else:
@@ -201,7 +211,6 @@ def main():
         else:
             print("Invalid choice. Please try again.")
             continue
-        zoo.add_animal(animal)
         zoo.save_zoo()
             
 if __name__ == "__main__":

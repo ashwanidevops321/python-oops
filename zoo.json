@@ -6,5 +6,13 @@
         "sleep": "8 hours",
         "move": "Crawls",
         "class_name": "Snake"
+    },
+    {
+        "name": "Rabit",
+        "animal_type": "Domestic",
+        "eat": "Carrot",
+        "sleep": "8 hours",
+        "move": "Hops",
+        "class_name": "Rabit"
     }
 ]
