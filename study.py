@@ -9,7 +9,7 @@ class Animal(ABC):
         self.sleep = sleep
         self.move = move
 
-    @abstractmethod                                     # This method must be implemented by subclasses
+    @abstractmethod                       
     def make_sound(self):
         pass
 
