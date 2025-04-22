@@ -211,6 +211,7 @@ def main():
         else:
             print("Invalid choice. Please try again.")
             continue
+        zoo.add_animal(animal)
         zoo.save_zoo()
             
 if __name__ == "__main__":

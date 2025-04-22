@@ -14,5 +14,29 @@
         "sleep": "8 hours",
         "move": "Hops",
         "class_name": "Rabit"
+    },
+    {
+        "name": "Dog",
+        "animal_type": "Domestic",
+        "eat": "Meat",
+        "sleep": "8 hours",
+        "move": "Walks",
+        "class_name": "Dog"
+    },
+    {
+        "name": "Dog",
+        "animal_type": "Domestic",
+        "eat": "Meat",
+        "sleep": "8 hours",
+        "move": "Walks",
+        "class_name": "Dog"
+    },
+    {
+        "name": "Lion",
+        "animal_type": "Wild",
+        "eat": "Meat",
+        "sleep": "10 hours",
+        "move": "Runs",
+        "class_name": "Lion"
     }
 ]
